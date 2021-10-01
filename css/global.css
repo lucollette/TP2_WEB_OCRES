@@ -1,13 +1,23 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
 * { 
     font-family: 'My Lucida', Console;
 }
+
+/*.container {
+    /* On ajoute une marge sur les cotés de l'écran */
+    /*padding-right: 15px;
+    padding-left: 15px;
+
+    /* Et on centre 
+    margin-right: auto;
+    margin-left: auto;
+}*/
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
